@@ -1,0 +1,381 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.watch {
+    text-align: center;
+    margin: 10px;
+    flex: 1 0 18%; 
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+    padding: 10px;
+    background-color: #fff; 
+}
+.watch img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; 
+    display: block;
+    margin: 0 auto;
+}
+.watch:hover {
+    box-shadow: 0 0 20px rgba(174, 50, 123, 0.8); 
+    border: 2px solid rgba(169, 41, 135, 0.8); 
+}
+.watch p {
+    transition: transform 0.3s ease-in-out;
+}
+.watch:hover p {
+    transform: translateY(-10px);
+}
+body {
+    background-color: #dee0e3;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  .header-container {
+    background-color: black;
+    color: #ffffff;
+    padding: 5px 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  
+  .header-text h1 {
+      margin: 0 auto 5px auto; 
+  
+  }
+  
+  .header-text p {
+      margin: 0; 
+  }
+  
+  .header-below-container {
+    background-color: rgb(32, 32, 32);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .nav-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    display: inline; 
+    margin: 0 10px; 
+  }
+  
+  .nav-list a {
+    text-decoration: none; 
+    color: #f8ff1f;
+    font-size: 18px; 
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .phone {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+  
+  .logo {
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    margin-right: 20px; 
+  }
+  
+  .apple{
+    width: 800px;
+    height: 500px;
+  }
+  
+  .samsung{
+    width: 800px;
+    height: 500px;
+  }
+  
+  .pixel{
+    width: 800px;
+    height: 500px;
+  }
+  
+  .xiaomi{
+    width: 800px;
+    height: 500px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 60px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .footer {
+    background-color: #2b3a3c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  .footer div {
+    margin: 0 20px;
+  }
+  .footer div h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .footer div ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer div ul li {
+    margin-bottom: 5px;
+  }
+  .footer div ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footer div ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer .social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  .footer .newsletter input[type="email"] {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  .footer .newsletter button {
+    padding: 5px 10px;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  .footer .whatsapp-chat {
+    display: flex;
+    align-items: center;
+  }
+  .footer .whatsapp-chat img {
+    width: 20px;
+    margin-left: 10px;
+  }
+  
+ 
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.watch {
+    text-align: center;
+    margin: 10px;
+    flex: 1 0 18%; 
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+    padding: 10px;
+    background-color: #fff; 
+}
+.watch img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; 
+    display: block;
+    margin: 0 auto;
+}
+.watch:hover {
+    box-shadow: 0 0 20px rgba(174, 50, 123, 0.8); 
+    border: 2px solid rgba(169, 41, 135, 0.8); 
+}
+.watch p {
+    transition: transform 0.3s ease-in-out;
+}
+.watch:hover p {
+    transform: translateY(-10px);
+}
+body {
+    background-color: #dee0e3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header-container {
+    background-color: black;
+    color: #ffffff;
+    padding: 5px 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.header-text h1 {
+    margin: 0 auto 5px auto; 
+
+}
+
+.header-text p {
+    margin: 0; 
+}
+
+.header-below-container {
+    background-color: rgb(32, 32, 32);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.nav-list a {
+    text-decoration: none; 
+    color: #f8ff1f;
+    font-size: 18px; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.phone {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    margin-right: 20px; 
+}
+
+.apple {
+    width: 800px;
+    height: 500px;
+}
+
+.samsung {
+    width: 800px;
+    height: 500px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
+

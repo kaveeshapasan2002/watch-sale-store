@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 0px;
+}
+
+.main-content {
+    padding: 400px 0; /* Add padding for spacing */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form .form-control {
+    margin-bottom: 10px;
+}
